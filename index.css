@@ -116,13 +116,13 @@ label {
 }
 
 .image-cont {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .image-cont img {
     width: 100%;
-    /* height: calc(100vh - 32px); */
-    height: 92vh;
+    height: calc(100vh - 32px); 
+    
     /* border-radius: 100%; */
 }
 
