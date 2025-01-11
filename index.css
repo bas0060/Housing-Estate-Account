@@ -286,12 +286,38 @@ label {
 
     .sign-in-cont {
         width: 90vw;
-        /* padding: 0; */
     }
 
     .image-part{
         width: 100vw;
-        padding: 0rem 0rem 1rem 0rem;
+    }
+
+    .only-forgot {
+        padding-top: .7rem;
+    }
+    
+    .only-forgot h1, .only-forgot h6 {
+        padding-bottom: .6rem;
+    }
+    
+    .only-forgot-2 {
+        padding-bottom: .7rem;
+    }
+}
+
+@media (max-width : 768px) {
+    .sign-in-image-cont {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem 0;
+    }
+
+    .sign-in-cont {
+        width: 90vw;
+    }
+
+    .image-part{
+        width: 100vw;
     }
 
     .only-forgot {
