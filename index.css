@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+.sign-in-image-cont {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 100vh; */
+    /* width: 97%; */
+    margin: auto;
+}
+
+.sign-in-cont-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding:0rem 6rem;
+    /* padding:0rem 6rem 0rem 4rem; */
+    width: 50%;
+    height: 100%;
+}
+
+.sign-in-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.sign-in-cont1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sign-in-cont1 h1 {
+    font-weight:700;
+    line-height:3.5rem;
+    font-size: 3rem;
+}
+
+.sign-in-cont1 h6 {
+    color: gray;
+    font-weight:400;
+    line-height:1.2rem;
+    font-size: 1rem;
+}
+
+.labell {
+    display: flex;
+    flex-direction: column;
+    gap: .45rem;
+    padding-bottom: 1rem;
+    outline: none;
+}
+
+.labell input {
+    width: 100%;
+    border: 1px solid lightgray;
+    outline: none;
+    font-weight:400;
+    line-height:2rem;
+    font-size: .85rem;
+    border-radius: .4rem;
+    padding: .35rem 1rem .35rem 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    font-weight:550;
+    line-height:1.5rem;
+    font-size: 1.2rem;
+}
+
+.pass {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pass-image {
+    position: absolute;
+    right: 1rem;
+}
+
+.pass-image img {
+    width: 1.6rem;
+}
+
+.image-part {
+    background-color: rgb(144, 144, 171);
+    height: 100%;
+    width: 50%;
+}
+
+.image-cont {
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.image-cont img {
+    width: 100%;
+    /* height: calc(100vh - 32px); */
+    height: 96vh;
+    /* border-radius: 100%; */
+}
+
+
+.sign-in-cont2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -.7rem;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(11, 121, 158);
+    border-radius: .4rem;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.register a {
+    color: white;
+    font-weight:550;
+    /* line-height: 1.5rem; */
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+}
+
+.continue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: .4rem;
+    width: 80%;
+    margin: auto;
+    padding: 0.3rem 0;
+    cursor: pointer;
+}
+
+.continue a {
+    color: rgb(11, 121, 158);
+    font-weight:500;
+    /* line-height:1.5rem; */
+    font-size: 1rem;
+}
+
+.continue img {
+    width: 2rem;
+}
+
+.already {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.already a, .agreement a {
+    color:  rgb(11, 121, 158) ;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.agreement p {
+    color: gray;
+    margin: auto;
+}
+  
+.left-line, .right-line {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+.text {
+    margin: 0 1rem;
+    font-size: 0.86rem;
+}
+
+.sign-blue a {
+    /* font-weight: 550; */
+   color: rgb(11, 121, 158);
+}
+
+.blackk a {
+    color: #000;
+    font-weight: 550;
+}
+
+/* page 2 */
+
+.remember-forgotten {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -2.2rem;
+    padding-bottom: 1rem;
+}
+
+.remeber {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.remeber p {
+    font-size: 0.8rem;
+}
+
+.forgotten {
+    padding-top: 4rem;
+    align-self: flex-end;
+}
+
+.forgotten a {
+    color: rgb(11, 121, 158);
+}
+
+.text-center {
+    text-align: center;
+    margin: auto;
+}
+
+.only-forgot {
+    padding-top: 1.5rem;
+}
+
+.only-forgot h1, .only-forgot h6 {
+    padding-bottom: 1.5rem;
+}
+
+.only-forgot-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+@media (max-width : 450px) {
+    .sign-in-image-cont {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem 0;
+    }
+
+    .sign-in-cont {
+        width: 90vw;
+        /* padding: 0; */
+    }
+
+    .image-part{
+        width: 100vw;
+        padding: 0rem 0rem 1rem 0rem;
+    }
+
+    .only-forgot {
+        padding-top: .7rem;
+    }
+    
+    .only-forgot h1, .only-forgot h6 {
+        padding-bottom: .6rem;
+    }
+    
+    .only-forgot-2 {
+        padding-bottom: .7rem;
+    }
+}
